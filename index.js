@@ -22,6 +22,6 @@ function currentLine(katzDeliLine) {
   }
   else {
     let i = 0
-    while()
+    while(i < katzDeliLine.length)
   }
 }
