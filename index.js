@@ -23,7 +23,8 @@ function currentLine(katzDeliLine) {
   else {
     let i = 0
     while(i < katzDeliLine.length) {
-      line.push(' ' + [i + 1] + '. '+ katzDeliLine[1])
+      line.push(' ' + [i + 1] + '. '+ katzDeliLine[i])
+      i++
     }
   }
 }
